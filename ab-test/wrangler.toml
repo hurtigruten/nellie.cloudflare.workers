@@ -1,0 +1,6 @@
+name = "nellie-ab-test"
+main = "src/index.ts"
+compatibility_date = "2022-08-23"
+routes =  [
+  { pattern = "*com.staging.hurtigruten.com/en-au/expeditions/cruises/*", zone_id = "3b3e8b6e553bcf977484e743ff0f0cfb" },
+]
