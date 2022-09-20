@@ -7,7 +7,7 @@ export const getWeightedRandomIndex = (weights: number[]) => {
   let sum = 0;
   for (let i = 0; i < weights.length; ++i) {
     sum += weights[i];
-    if (r <= sum) {
+    if (r < sum) {
       return i;
     }
   }
