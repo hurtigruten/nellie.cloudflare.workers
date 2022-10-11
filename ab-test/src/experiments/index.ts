@@ -1,10 +1,6 @@
-import bookingFlowStep1Experiment from "./bookingFlowStep1Experiment";
-import destinationsExperiment from "./destinationsExperiment";
+import homepageHeroExperiment from "./homepageHeroExperiment";
 
-const experiments: ABExperiment[] = [
-  bookingFlowStep1Experiment,
-  destinationsExperiment,
-];
+const experiments: ABExperiment[] = [homepageHeroExperiment];
 
 export const findActiveExperiment = (url_: string) => {
   // Get rid of query params
